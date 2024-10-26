@@ -1,0 +1,210 @@
+    *
+     body {
+      -webkit-flex: 3;
+      margin: 0;
+      box-sizing: border-box;
+      -ms-flex: 3;
+      flex: 3;
+      padding: 10px;
+      font-family: Arial, sans-serif; /* Define la fuente del texto. Arial es la fuente principal, y sans-serif es la de respaldo. */
+      margin: 0;
+      padding: 0; 
+      background-color: #f4f4f4;
+    }
+
+    header {
+      background-color: #333;
+      padding: 15px;
+      justify-content: space-between;
+      text-align: center;
+      display: flex;
+  }
+      .menu{
+        width: 1280px;
+        margin: 0 auto;
+      }
+      nav {
+        margin: 10px 0;
+        flex-grow: 1;
+        text-align: right;
+    }
+
+      nav ul li{
+        font-family: Arial;
+        float:left;
+        list-style: none;
+        margin-left: 93px;
+      }
+      nav ul li a {
+        text-decoration: none;
+        color:#07bb61;
+        font-weight: bold; 
+      }
+
+    #logo{
+        left: 1px;
+        width: 200px;
+        height: 100px;
+        float: left;
+      }
+    
+
+      #productos  {
+        font-family: Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 1500px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+      }
+      
+      #productos  td {
+        border: 2px solid #000000;
+        padding: 10px;
+        text-align: center;
+        background-color: hsl(0, 0%, 100%);
+      }
+      
+      #productos  th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: center;
+        background-color: #07bb61;
+        color: rgb(0, 0, 0);
+      }
+      
+     
+      #A{
+        width: 1700px;
+        height: 1000px;
+            }
+    
+      #B{
+        width: 1700px;
+        height: 1000px;
+
+      }
+      #C{
+        width: 1700px;
+        height: 1000px;
+
+      }
+      #D{
+        width: 1700px;
+        height: 1000px;
+
+      }
+
+
+      #E{
+        width: 1700px;
+        height: 1000px;
+      }
+      .contenedor {
+        display: flex;
+        align-items: center;
+        max-width: 1700px;
+        margin: 0 auto;
+        background: white;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .imagen {
+        width: 50%; /* Ajusta el tamaño de la imagen */
+        border-radius: 8px; /* Bordes redondeados */
+        margin-right: 20px; /* Espacio entre imagen y texto */
+    }
+    
+    .texto {
+      flex: 1; /* Permite que el contenedor de texto ocupe el espacio restante en el contenedor flex. */
+      text-align: center; /* Centra el texto dentro del contenedor. */
+  }
+  
+  .boton {
+    display: inline-block; /* Asegúrate de que el enlace se comporte como un bloque en línea. */
+    background-color: #07bb61; /* Color de fondo azul para el botón. */
+    color: white; /* Color del texto del botón en blanco. */
+    border: none; /* Elimina el borde por defecto del botón. */
+    border-radius: 5px; /* Redondea las esquinas del botón. */
+    padding: 10px 20px; /* Padding interno del botón. */
+    font-size: 1em; /* Tamaño de la fuente del botón. */
+    cursor: pointer; /* Cambia el cursor a una mano al pasar el mouse. */
+    transition: background-color 0.3s; /* Transición suave para el cambio de color de fondo. */
+    margin-top: 40px; /* Espacio encima del botón. */
+    text-decoration: none; /* Elimina el subrayado del enlace. */
+}
+  
+  .boton:hover {
+      background-color: #07bb617c; /* Color de fondo al pasar el mouse. */
+  }
+    
+    h1 {
+        font-size: 2em;
+        margin: 0;
+    }
+    
+    
+    .texto .boton {
+      margin-top: 40px; /* Aumenta el espacio encima del botón. */
+  }
+
+
+
+
+.contact-info p {
+    font-size: 1em;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.contact-info a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+.contact-info ul {
+    list-style: none;
+    padding: 0;
+    color: white;
+}
+
+.contact-info ul li {
+    margin-bottom: 5px;
+}
+
+
+.Jamon {
+  display: flex;
+  align-items: center;
+  max-width: 1700px;
+  margin: 0 auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.imagenmodelo {
+  width: 1700px;
+  height: 1000px;
+  border-radius: 8px; /* Bordes redondeados */
+  margin-right: 20px; /* Espacio entre imagen y texto */
+}
+
+
+.seccion-final {
+  background-color: #333;
+  padding: 2px;
+  text-align: center;
+}
+
+
+.H{
+  color:white;  
+}
+
+
